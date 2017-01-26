@@ -43,15 +43,17 @@ You can check which answers is known by checking in memory.cpp. The init functio
 
 
 ### To add a souvenir :
-
+```c++
 this->addSouvenir("CONCEPT_VERB", "CONCEPT_NAME", "WHO", "WHY", "WHERE", "WHEN", "WHAT", "HOW", BOOL IS, BOOL HAVE);
-
+```
 The booleans are still on working :p
 
 
 #### Example :
 
+```c++
 this->addSouvenir("CONCEPT_BE", "CONCEPT_NAME", "I", dunnowhy, dunnowhere, dunnowhen, "Gandalf", dunnohow, true, true);
+```
 
 We just created a souvenir of having a name, and its value.
 
