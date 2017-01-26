@@ -1,1 +1,10 @@
-.vs/IADuTurfu/v14/.suo
+.vs
+Debug
+*.db
+*.opendb
+*.o
+*.vcxproj
+*.vcxproj.filters
+ReadMe.txt
+tasks.json
+AIv2.3

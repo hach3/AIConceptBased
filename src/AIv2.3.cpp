@@ -1,4 +1,4 @@
-// AIv2.3.cpp : définit le point d'entrée pour l'application console.
+// AIv2.3.cppï¿½: dï¿½finit le point d'entrï¿½e pour l'application console.
 //
 
 
@@ -7,7 +7,7 @@
 #include <stdlib.h> 
 
 
-int main(int argc, char* argv)
+int main(int argc, char** argv)
 {
 	
 	Start start;

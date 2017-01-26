@@ -5,8 +5,6 @@
 #include <vector>
 
 #include <ctime>
-#include <sapi.h>
-#include "stdafx.h"
 
 //We include all the collectioner of concepts and memory
 //Memory

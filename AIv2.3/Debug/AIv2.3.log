@@ -1,8 +1,0 @@
-﻿  bot1.cpp
-  ai.cpp
-c:\users\hach3\documents\visual studio 2015\projects\aiv2.3\aiv2.3\ai.cpp(45): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  start.cpp
-  AIv2.3.vcxproj -> C:\Users\hach3\Documents\Visual Studio 2015\Projects\AIv2.3\Debug\AIv2.3.exe
-  AIv2.3.vcxproj -> C:\Users\hach3\Documents\Visual Studio 2015\Projects\AIv2.3\Debug\AIv2.3.pdb (Full PDB)
