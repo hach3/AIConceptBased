@@ -61,14 +61,14 @@ Concepts are structures (check concept.h) of words category. Words can be name, 
 
 ## @TODO :
 
-Copy the "And You ?" function From previous version
+- Copy the "And You ?" function From previous version
 
 
-Add a vector2 of linking concepts to concept.
+- Add a vector2 of linking concepts to concept.
 
 	The concept car is related to the concept of mecanic, road, etc...
 	
 	That allows to the next to create a discussion around a topic.
 	
 
-Handle more sentence structures
+- Handle more sentence structures
