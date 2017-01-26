@@ -38,7 +38,7 @@ void AI::Initialization()
     this->_ConceptWH.Init();
     this->_Expression.Init();
 }
-void AI::buildAnswerWH(std::vector<std::string> words)
+void AI::buildAnswerWH(std::string whValueInMemory, std::vector<std::string> words)
 {
 	if (whValueInMemory != "")
 	{

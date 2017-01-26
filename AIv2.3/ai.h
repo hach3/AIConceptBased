@@ -35,7 +35,7 @@ public:
 	void Initialization();
 
 	void saySomething();
-	void buildAnswerWH(std::vector<std::string> words);
+	void buildAnswerWH(std::string whValueInMemory, std::vector<std::string> words);
 
 	bool checkIfQuestionWHBeSC(std::string &wh, std::string &be, std::string &subject, std::string &complement, std::vector<std::string> vectorSentence);
 	bool checkIfQuestionWHBeS(std::string &wh, std::string &be, std::string &subject, std::vector<std::string> vectorSentence);

@@ -55,7 +55,7 @@ void Bot1::startBehavior(std::string userSentence)
 		sentenceToBuild.push_back(verbAnswer);
 		sentenceToBuild.push_back(whValueInMemory);
 
-		this->buildAnswerWH(sentenceToBuild);
+		this->buildAnswerWH(whValueInMemory, sentenceToBuild);
 	}
 	/*Si c'est Who are you / how are you (WH BE Subject)*/
 	else if (this->checkIfQuestionWHBeS(wh, be, subject, conceptInSentence))
@@ -76,7 +76,7 @@ void Bot1::startBehavior(std::string userSentence)
 		sentenceToBuild.push_back(verbAnswer);
 		sentenceToBuild.push_back(whValueInMemory);
 
-		this->buildAnswerWH(sentenceToBuild);
+		this->buildAnswerWH(whValueInMemory, sentenceToBuild);
 	
 	}
 	/* WH S C : what is love ?*/
@@ -98,7 +98,7 @@ void Bot1::startBehavior(std::string userSentence)
 		sentenceToBuild.push_back(verbAnswer);
 		sentenceToBuild.push_back(whValueInMemory);
 
-		this->buildAnswerWH(sentenceToBuild);
+		this->buildAnswerWH(whValueInMemory, sentenceToBuild);
 	
 
 	}
