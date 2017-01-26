@@ -2,3 +2,4 @@
 Debug
 *.db
 *.opendb
+*.o

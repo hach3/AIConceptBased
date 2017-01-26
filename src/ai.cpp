@@ -66,32 +66,6 @@ void AI::saySomething()
 	}
 	this->sentenceToSay = this->putToLowerCase(this->sentenceToSay);
 	std::cout << this->sentenceToSay << std::endl;
-
-	//Let's convert the string to say in wstring
-	std::wstring text(this->sentenceToSay.begin(), this->sentenceToSay.end());
-
-	ISpVoice * pVoice = NULL;
-
-	if (FAILED(::CoInitialize(NULL)))
-	{
-
-	}
-	else
-	{
-		HRESULT hr = CoCreateInstance(CLSID_SpVoice, NULL, CLSCTX_ALL, IID_ISpVoice, (void **)&pVoice);
-		if (SUCCEEDED(hr))
-
-		{
-
-			hr = pVoice->Speak(text.c_str(), 0, NULL);
-			pVoice->Release();
-			pVoice = NULL;
-		}
-
-		::CoUninitialize();
-
-	}
-
 }
 
 
